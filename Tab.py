@@ -1,3 +1,6 @@
-print("left")
-17
-print("abx")
+from tkinter import *
+
+root = Tk()
+theLabel = Label (root, text ="this is so easy")
+theLabel.pack()
+root.mainloop()
