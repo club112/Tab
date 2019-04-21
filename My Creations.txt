@@ -1,0 +1,29 @@
+#simple gui
+from tkinter import *
+
+root = Tk()
+theLabel = Label (root, text ="this is so easy")
+theLabel.pack()
+root.mainloop()
+
+
+
+
+
+
+#value detector
+a = int(input())
+if a >= 11:
+    print("great value")
+else:
+    print("low value")
+
+
+
+
+
+
+    # simple calculator
+a = eval(input())
+print(a)
+
